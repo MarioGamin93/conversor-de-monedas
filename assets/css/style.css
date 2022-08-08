@@ -1,0 +1,80 @@
+body{
+    background-color: #333;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form__title{
+    font-size: 2.5rem;
+    border-top: 1px solid rgba(65, 105, 225, 0.522);
+    border-bottom: 1px solid rgba(65, 105, 225, 0.522);
+    padding: 15px 8px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    background-color: #555;
+    margin-bottom: 2rem;
+
+}
+
+.form__pesos{
+    padding-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.form__input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.form__moneda{
+    font-size: 1.2rem;
+}
+
+.select__moneda{
+    width: 80%;
+    height: 33px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.form__submit{
+    padding: .2rem 5.6rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+    background-color: royalblue;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.text{
+    font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+canvas{
+    width: 900px;
+    height: 500px;
+}
